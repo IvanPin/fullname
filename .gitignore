@@ -1,5 +1,6 @@
 *.inl
 .idea
+.wakatime-project
 
 #project files
 vendor
