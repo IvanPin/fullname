@@ -1,0 +1,6 @@
+*.inl
+.idea
+
+#project files
+vendor
+composer.lock
