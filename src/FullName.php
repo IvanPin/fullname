@@ -6,11 +6,10 @@ namespace Itpin\Fullname;
 
 class FullName
 {
-    public function getFullName($l, $n, $s): string
+    public function getFullName(string $l, string $n, string $s): string
     {
         $fullName = $l . " " . $n . " " . $s;
         $fullName = str_replace("  ", "", trim($fullName));
-        return $fullName;
+        return $fullName; //Фамилия Имя Отчество
     }
-
 }
