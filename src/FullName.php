@@ -6,9 +6,9 @@ namespace Itpin\Fullname;
 
 class FullName
 {
-    public function getFullName(string $l, string $n, string $s): string
+    public function getFullName(string $last_name, string $name, string $secondary_name): string
     {
-        $fullName = $l . " " . $n . " " . $s;
+        $fullName = $last_name . " " . $name . " " . $secondary_name;
         $fullName = str_replace("  ", "", trim($fullName));
         return $fullName; //Фамилия Имя Отчество
     }
